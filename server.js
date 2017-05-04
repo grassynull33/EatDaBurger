@@ -12,7 +12,12 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use(express.static("public"));
 
+// TEST ORM METHODS
+// var orm = require("./config/orm.js");
 
+// orm.selectAll("burgers");
+// orm.insertOne("burgers", "burger_name", "Big Mac");
+// orm.updateOne("burgers", "devoured", 1, "burger_name", "Big Mac");
 
 app.listen(PORT, function() {
 	console.log("Listening on PORT " + PORT);
