@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/yoonslee/EatDaBurger.git"
   },
-  "engines": {
-    "node": "7.4.0",
-    "npm": "4.0.5"
-  },
   "author": "Yoon Lee",
   "license": "ISC",
   "bugs": {
