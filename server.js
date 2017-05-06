@@ -5,7 +5,7 @@ var exphbs = require("express-handlebars");
 var router = require("./controllers/burgers_controller.js");
 
 var app = express();
-var PORT = process.env.PORT || 8080;
+var port = process.env.PORT || 8080;
 
 app.use(methodOverride("_method"));
 
@@ -21,6 +21,6 @@ app.use(express.static(process.cwd() + "/public"));
 
 app.use("/", router);
 
-app.listen(PORT, function() {
-	console.log("Listening on PORT " + PORT);
+app.listen(port, function() {
+	console.log("Listening on PORT " + port);
 });
